@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class FunRestController {
 
-    // FROM application.properties
+    // FROM application.properties Injecting 
     @Value("${dev.name}")
     private String devName;
 
